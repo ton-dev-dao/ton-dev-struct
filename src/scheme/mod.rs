@@ -14,7 +14,7 @@
     limitations under the License.
 */
 
-use ever_block::{
+use ton_dev_block::{
     fail, BuilderData, Cell, Deserializable, IBitstring, Result, Serializable, SliceData,
 };
 
