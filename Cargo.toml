@@ -1,0 +1,13 @@
+[package]
+edition = '2021'
+license = 'Apache-2.0'
+name = 'ton_dev-struct'
+repository = 'https://github.com/ton-dev-dao/ton-dev-struct'
+rust-version = '1.65'
+version = '1.1.21'
+
+[dependencies]
+anyhow = '1.0'
+thiserror = '1.0'
+ton_dev_block = { git = 'https://github.com/ton-dev-dao/ton-dev-block.git', tag = '1.11.20' }
+
